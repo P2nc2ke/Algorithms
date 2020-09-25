@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Header/Recursion.h"
+#include "Recursion.h"
 
 int getNumber()
 {
