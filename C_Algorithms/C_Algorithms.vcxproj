@@ -148,6 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C_Algorithms.cpp" />
+    <ClCompile Include="Recursion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Recursion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
