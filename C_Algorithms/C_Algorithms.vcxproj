@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C_Algorithms.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Recursion.cpp" />
   </ItemGroup>
   <ItemGroup>

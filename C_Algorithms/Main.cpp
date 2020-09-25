@@ -24,6 +24,7 @@ void testFactorial()
 
 int main()
 {
+    //Test Function - Factorial
     testFactorial();
     return 0;
 }
