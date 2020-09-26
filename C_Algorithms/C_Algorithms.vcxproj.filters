@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Recursion.cpp">
+    <ClCompile Include="src\recursion\recursion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Recursion.h">
+    <ClInclude Include="include\recursion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
