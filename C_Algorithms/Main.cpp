@@ -1,5 +1,7 @@
 #include <iostream>
 #include "recursion.h"
+#include <chrono>
+using namespace std::chrono;
 
 int getNumber()
 {
@@ -17,7 +19,11 @@ void testFactorial()
 	while (x > 0)
 	{
 		printf("...");
+		auto start = high_resolution_clock::now();
 		printf("\nResult: %.Lf", factorial(x));
+		auto stop = high_resolution_clock::now();
+		auto duration = duration_cast<milliseconds>(stop - start);
+		std::cout << "\nAlgorithm Duration: " << duration.count() << " ms" << std::endl;
 		x = getNumber();
 	}
 }
@@ -31,10 +37,14 @@ void testFibonacci()
 	{
 		printf("...");
 		printf("\nResult: ");
+		auto start = high_resolution_clock::now();
 		for (size_t i = 1; i < x + 1; i++)
 		{
 			printf("%.Lf ", fibonacci(i));
 		}
+		auto stop = high_resolution_clock::now();
+		auto duration = duration_cast<milliseconds>(stop - start);
+		std::cout << "\nAlgorithm Duration: " << duration.count() << " ms" << std::endl;
 		x = getNumber();
 	}
 }

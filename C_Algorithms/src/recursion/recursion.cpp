@@ -8,6 +8,14 @@ long double factorial(int x)
 		return x * factorial(x - 1);
 }
 
+long double factorial2(int x, long double tmp)
+{
+	if (x == 0)
+		return tmp;
+	else
+		return factorial2(x - 1, x * tmp);
+}
+
 long double fibonacci(int x)
 {
 	if (x < 2)
